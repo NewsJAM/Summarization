@@ -27,13 +27,6 @@ def score(subject,s):
     if len(temp)>0:
         l = len(temp)
 
-    """     
-    print "i", i
-    print "j", j
-    print "k", k
-    print "l", l
-    """
-    #return float(Fuzzy.inf( z*1.5*i/j, 1.*(k+l)/j ))
     input1 = 1.5*z*i/j
     input2 = 2.*(k+l)/j
     if input1 > 1.:
